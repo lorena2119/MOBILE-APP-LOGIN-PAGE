@@ -4,11 +4,103 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter_18pt-Regular";
+    
+}
+
+body{
     background-color: var(--color-5);
 }
 
-.h1__titulo{
+/********************* Header **********************/
+
+header{
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 5px;
+}
+
+header h1{
+    width: 264px;
     color: var(--color-1);
-    font-size: 2.5rem;
+    font-size: 40px;
+    font-family: "Inter_28pt-Bold";
+}
+
+header p{
+    width: 342px;
+    margin-top: 9px;
+    font-size: 20px;
+    color: var(--color-4);
+    font-family: "Inter_18pt-Bold";
+}
+
+/*************************************************/
+/********************* Main **********************/
+
+main{
+    /* background-color: red; */
+}
+
+.section__images{
+    /* background-color: blue; */
+    height: 279px;
+    margin-top: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section__images img{
+    /* background-color: violet; */
+
+}
+
+.section__images img:first-child{
+    position: absolute;
+    left: -50%;
+
+}
+
+.section__images img:last-child{
+    position: absolute;
+    right: -50%;
+    bottom: 0;
+}
+
+.section__form{
+    /* background-color: bisque; */
+    margin-top: 27px;
+    position: relative;
+}
+
+.section__form > a{
+    display: block;
+    position: relative;
+    inset: 0;
+    margin: auto;
+    background-color: var(--color-3);
+    width: 284px;
+    height: 59px;
+    border-radius: 20px;
+    color: var(--color-1);
     text-align: center;
+    padding-top: 17px;
+    font-family: "Inter_18pt-Bold";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.section__form p,
+.section__form p a{
+    /* background-color: yellow; */
+    text-decoration: none;
+    color: var(--color-1);
+    margin-top: 8px;
+    text-align: center;
+    font-family: "Inter_18pt-Bold";
+    font-size: 15px;
+
+}   
+
+.section__form p a{
+    color: var(--color-3);
 }
