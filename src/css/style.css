@@ -107,13 +107,16 @@ main{
 
 footer {
     /* background-color: aqua; */
-    height: 218px;
+    height: 425px;
     position: relative;
+    overflow: hidden;
     
 }
 
 footer img {
+    /* background-color: brown; */
     position: absolute;
     bottom: 0;
-    z-index: -1;
+    width: 100%;
+    
 }
