@@ -44,7 +44,7 @@ main{
 .section__images{
     /* background-color: blue; */
     height: 279px;
-    margin-top: 35px;
+    margin-top: 25px;
     position: relative;
     overflow: hidden;
 }
@@ -103,4 +103,17 @@ main{
 
 .section__form p a{
     color: var(--color-3);
+}
+
+footer {
+    /* background-color: aqua; */
+    height: 218px;
+    position: relative;
+    
+}
+
+footer img {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
 }
