@@ -4,8 +4,25 @@
     --color-3: #000000;
     --color-4: #1E1E1E;
     --color-5: #8C5CB3;
+    --color-6: #D9D9D9D9;
+    --color-7: #6A4687
 }
 @font-face {
     font-family: "Inter_18pt-Regular";
     src: url(../stora/font/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter_28pt-Regular";
+    src: url(../stora/font/Inter/static/Inter_28pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter_18pt-Bold";
+    src: url(../stora/font/Inter/static/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Inter_28pt-Bold";
+    src: url(../stora/font/Inter/static/Inter_28pt-Bold.ttf);
 }
