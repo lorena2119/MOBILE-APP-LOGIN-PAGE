@@ -38,10 +38,108 @@ header a{
     font-family: "Inter_18pt-Bold";
     font-size: 15px;
     text-decoration: none;
-    margin-top: 17px;
+    margin-top: 26px;
     justify-content: center;
     align-items: center;
     gap: 10px;
 
 }
+
+header p{
+    display: flex;
+    position: relative;
+    margin: auto;
+    color: var(--color-3);
+    text-align: center;
+    font-family: "Inter_18pt-Bold";
+    font-size: 15px;
+    margin-top: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+header p img:first-child{
+    margin-right: 15px;
+
+}
+
+header p img:last-child{
+    margin-left: 13px;
+
+}
+
+main form{
+    margin-top: 51px;
+}
+
+main form label{
+    display: block;
+    margin-left: 43px;
+    font-family: "Inter_18pt-Bold";
+    color: var(--color-3);
+    
+}
+
+
+main form label a{
+    display: inline;
+    margin-left: 160px;
+    font-family: "Inter_18pt-Regular";
+    color: var(--color-3);
+    text-decoration: none;
+}
+
+
+main form input{
+    display: flex;
+    position: relative;
+    margin: auto;
+    background-color: var(--color-1);
+    width: 306px;
+    height: 49px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: "Inter_18pt-Bold";
+    font-size: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-6);
+    box-shadow:  0px 4px 4px var(--color-7);
+    margin-bottom: 30px;
+}
+
+.section__form p, a{
+    font-family: "Inter_28pt-Bold";
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.section__form p{
+    color: var(--color-1);
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.section__form a{
+    color: var(--color-3);
+    margin-left: 112px;
+    margin-top: 6px;
+}
+
+footer {
+    margin-top: 0;
+    height: 305px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+footer img {
+    /* background-color: brown; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
 
